@@ -49,10 +49,10 @@ final otpInputDecoration = InputDecoration(
   enabledBorder: outlineInputBorder(),
 );
 
-List<String> businessCategory = ['Fashion Store', 'Electronics Store', 'Computer Store', 'Baby Store','Vegetable Store', 'Sweet Store', 'Meat Store'];
-List<String> language = ['English'];
+List<String> businessCategory = ['Fashion Store', 'Electronics Store', 'Computer Store', 'Vegetable Store', 'Sweet Store', 'Meat Store'];
+List<String> language = ['English', 'Bengali', 'Hindi', 'Urdu', 'French', 'Spanish'];
 
-List<String> productCategory = ['Fashion','Shoe', 'Electronics', 'Computer', 'Gadgets', 'Watches', 'Cloths'];
+List<String> productCategory = ['Fashion', 'Electronics', 'Computer', 'Gadgets', 'Watches', 'Cloths'];
 
 List<String> userRole = [
   'Super Admin',
@@ -66,7 +66,6 @@ List<String> paymentType = [
   'Cash',
   'Transfer',
   'Sales',
-  'Mobile Payment',
 ];
 List<String> posStats = [
   'Daily',
